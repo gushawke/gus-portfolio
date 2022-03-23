@@ -16,8 +16,12 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-tooltip": "^4.2.21",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    
   },
+  "engines": {
+    "node": "14.x"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,4 +46,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
