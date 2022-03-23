@@ -1,5 +1,8 @@
 
-
+.head-text {
+    scroll-margin-top: 300px;
+    margin-bottom: 70px;
+}
 .app__testimonial {
     flex: 1;
     width: 100%;
@@ -16,6 +19,7 @@
     box-shadow: 0 0 30px rgba(0,0,0,0.1);
 
     transition: all 0.3s ease-in-out;
+    
 
     img {
         width: 100px;
@@ -106,16 +110,19 @@
     width: 80%;
     flex-wrap: wrap;
     margin-top: 2rem;
+    
 
     div {
         width: 150px;
         margin: 1.5rem;
+        
 
         img {
             width: 100%;
             height: auto;
             object-fit: cover;
             filter: grayscale(2);
+            border-radius: 20px;
         }
         &:hover {
             img {

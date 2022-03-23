@@ -40,9 +40,10 @@ const Testimonial = () => {
 
   return (
     <>
+    <h2 className='head-text' id='testimonials'>Testimonials</h2>
       {testimonials.length && (
         <>
-          <div className='app__testimonial-item app__flex'>
+          <div className='app__testimonial-item app__flex' >
           {test.imageurl && (
             <img src={urlFor(test.imageurl)} alt='testimonial' />
             

@@ -1,7 +1,8 @@
 
 import React from 'react'
-import { BsTwitter, BsInstagram } from 'react-icons/bs'
+import { BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import {FaFacebookF} from 'react-icons/fa'
+import { GoMarkGithub } from "react-icons/go";
 
 const SocialMedia = () => {
   return (
@@ -21,6 +22,18 @@ const SocialMedia = () => {
               <BsInstagram />
             </div>
           </a>
+          <a href='https://github.com/gushawke' target='blank'>
+            <div>
+            <GoMarkGithub />
+            </div>
+          </a>
+
+          <a href='https://www.linkedin.com/in/gus-hawke-5a1686a3/' target='blank'>
+            <div>
+            <BsLinkedin />
+            </div>
+          </a>
+          
     </div>
   )
 }

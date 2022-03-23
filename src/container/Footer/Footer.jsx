@@ -42,7 +42,8 @@ const Footer = () => {
 
   return (
   <>
-    <h2 className='head-text'>Take a coffee and chat with me</h2>
+    <h2 className='head-text' id='contact'>Let's have a chat!</h2>
+    <p className='p-text'>Message below or find me on social</p>
 
     <div className='app__footer-cards'>
       <div className='app__footer-card'>
